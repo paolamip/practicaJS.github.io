@@ -1,0 +1,93 @@
+body {
+    background-color: #f5e1e1; /* rosa claro */
+    color: #8a4d76; /* tono de rosa oscuro para el texto */
+}
+
+
+
+a {
+    color: #ff6b98; /* rosa brillante para los enlaces */
+    text-decoration: none; /* quitar subrayado de los enlaces */
+}
+
+a:hover {
+    color: #d23c5e; /* rosa más oscuro al pasar el cursor sobre los enlaces */
+}
+
+#button {
+    background-color: #ff6b98; /* rosa brillante para los botones */
+    color: white; /* texto blanco en los botones */
+    border: none; /* quitar bordes de los botones */
+    padding: 10px 20px; /* espacio interior en los botones */
+    border-radius: 5px; /* bordes redondeados en los botones */
+    cursor: pointer; /* cursor de tipo mano al pasar sobre los botones */
+}
+
+#button:hover {
+    background-color: #d23c5e; /* rosa más oscuro al pasar el cursor sobre los botones */
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px auto; /* Ajuste del margen */
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: max-width 0.3s ease; 
+}
+
+.card:hover {
+    max-width: 310px;
+}
+
+.card img {
+    background-color: white;
+    max-width: 100%;
+}
+
+.title {
+    color: rgb(224, 201, 201);
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px; 
+}
+
+button:hover {
+    opacity: 0.7;
+}
+*{
+    box-sizing: border-box;
+}
+
+.contenedorFlex{
+    display:flexbox;
+    width: 400px;
+flex-direction: row;
+background-color: palevioletred;
+padding: 10px;
+border: 2px solid #8a4d76;
+}
+.item {
+    background-color: lightpink;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+}
