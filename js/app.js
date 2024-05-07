@@ -35,17 +35,13 @@ btnCalcularp2.addEventListener('click', function() {
 
     switch (parseInt(option)) {
         case 1:
-            res = idNumero1 + idNumero2;
-            break;
+            res = idNumero1 + idNumero2;break;
         case 2:
-            res = idNumero1 - idNumero2;
-            break;
+            res = idNumero1 - idNumero2;break;
         case 3:
-            res = idNumero1 * idNumero2;
-            break;
+            res = idNumero1 * idNumero2;break;
         case 4:
-            res = idNumero1 / idNumero2;
-            break;
+            res = idNumero1 / idNumero2;break;
     }
 
     txtres.value = res;
