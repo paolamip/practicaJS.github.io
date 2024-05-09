@@ -12,7 +12,7 @@ btnLimpiar.addEventListener('click', function() {
 
 btnCalcular.addEventListener('click', function() {
     const precio = parseFloat(document.getElementById('precio').value);
-    const porcentajeInicial = parseFloat(document.getElementById('idOpcion').value);
+    const porcentajeInicial = parseFloat(document.getElementById('porcentajeInicial').value);
     const plazo = parseFloat(document.getElementById('idOpcion2').value);
 
         const pagoInicial = precio * ( porcentajeInicial / 100 );
